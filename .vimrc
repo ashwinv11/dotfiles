@@ -21,7 +21,7 @@ filetype plugin indent on
 
 syntax on
 set background=dark
-colorscheme 0x7A69_dark
+colorscheme molokai
 
 " turn off numbering and current number (in mvim)
 set relativenumber
