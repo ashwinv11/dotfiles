@@ -15,13 +15,14 @@ Plugin 'sophacles/vim-processing'
 Plugin 'tpope/vim-rails'
 Plugin 'wilsaj/chuck.vim'
 Plugin 'Yggdroot/indentLine'
+Plugin 'kristijanhusak/vim-hybrid-material'
 
 call vundle#end()
 filetype plugin indent on
 
 syntax on
 set background=dark
-colorscheme molokai
+colorscheme hybrid_reverse
 
 " turn off numbering and current number (in mvim)
 set relativenumber
@@ -47,9 +48,9 @@ set backspace=eol,indent,start
 
 " use 4-spaces for taba and autoindent
 set autoindent
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 
 " allows case insensitive searching
