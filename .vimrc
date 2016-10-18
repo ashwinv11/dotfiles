@@ -15,6 +15,7 @@ Plugin 'sophacles/vim-processing'
 Plugin 'tpope/vim-rails'
 Plugin 'wilsaj/chuck.vim'
 Plugin 'Yggdroot/indentLine'
+Plugin 'scrooloose/nerdtree'
 Plugin 'kristijanhusak/vim-hybrid-material'
 
 call vundle#end()
